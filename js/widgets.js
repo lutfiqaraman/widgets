@@ -17,5 +17,5 @@ const toggleTab = (button, index) => {
         t.style = "opacity: 0;";
     });
 
-    tabs(index).style = "opacity: 1;";
+    tabs[index].style = "opacity: 1;";
 }
