@@ -1,0 +1,45 @@
+.widget {
+    background: #fff;
+    width: 330px;
+    border-radius: 8px;
+}
+
+.widget > header {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #e2e1ef;
+}
+
+.widget > header > button {
+    padding: 20px 50px;
+    width: 64px;
+    background: transparent;
+    color: #918db7;
+    border: 0;
+    transition: 0.3s;
+}
+
+.widget > header > button:not(.active) {
+    opacity: 0.7;
+}
+
+.widget > header > button:hover:not(.active) {
+    opacity: 0.7;
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    height: 140px;
+}
+
+#contentInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    transition: 0.3s;
+}

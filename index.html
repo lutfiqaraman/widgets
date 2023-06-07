@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Widgets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<article class="widget">
+    <header>
+        <button onclick="toggleTab(this, 0)">
+            <span>
+                <i class="fa fa-2x fa-home" aria-hidden="true"></i>
+            </span>
+        </button>
+
+        <button onclick="toggleTab(this, 1)">
+            <span>
+                <i class="fa fa-2x fa-user" aria-hidden="true"></i>
+            </span>
+        </button>
+
+        <button onclick="toggleTab(this, 2)">
+            <span>
+                <i class="fa fa-2x fa-gear" aria-hidden="true"></i>
+            </span>
+        </button>
+
+        <div id="background" style="background: red"></div>
+
+    </header>
+    <div class="content">
+        <div id="contentInner">
+            <div>
+                <p>Home TAB</p>
+            </div>
+            <div>
+                <p>Account TAB</p>
+            </div>
+            <div>
+                <p>Settings TAB</p>
+            </div>
+        </div>
+    </div>
+</article>
+<script src="js/widgets.js"></script>
+</body>
+</html>
